@@ -1,0 +1,88 @@
+.app {
+    font-size: 28px;
+    padding-bottom: 2.45rem;
+    background: #fff!important;
+    min-height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+#head {
+    height: 88px;
+    z-index: 201;
+    height: 44px;
+    width: 100%;
+    max-width: 16rem;
+    min-width: 8rem;
+    overflow: inherit;
+    position: relative;
+    z-index: 199;
+    border-bottom: 1px solid #dedede;
+}
+.fixtop {
+    height: 88px;
+    background: #fff;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+}
+#t-find {
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    top: 0;
+}
+#t-index {
+    font-size: 36px;
+    line-height: 88px;
+    color: #333;
+}
+#t-user {
+
+    padding-right: 28px;
+    font-size: 28px;
+    line-height: 88px;
+    right: 0;
+    top: 0;
+}
+#t-find img {
+    width: 30px;
+   margin-left: -320px;
+   margin-top: -10px;
+}
+.reg-notice {
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 26px;
+}
+.info-input {
+    margin-top: 20px;
+}
+input {
+    border: none;
+    font-size: 14px;
+    line-height: 40px;
+    text-indent: 16px;
+}
+.login-info li {
+    border-bottom: 1px solid #ebebeb;
+}
+.btn_get  {
+    font-size: 14px;
+    line-height: 40px;
+    text-indent: -70px;
+}
+#btn-code {
+    display: block;
+    background: #dbdbdb;
+    margin-top: 30px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin:  0px 20px;
+    box-sizing: border-box;
+    line-height: 46px;
+    height: 46px;
+}

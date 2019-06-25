@@ -1,0 +1,84 @@
+.list-right {
+    float: left;
+    width: 75%;
+    font-size: 12px;
+    padding-left: 4%;
+    background-color: white;
+}
+#wraper {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    padding-bottom: 49px;
+}
+
+.third-cate {
+    padding-bottom: 98px;
+    margin-top: 20px;
+    width: 100%;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-bottom: 49px;
+}
+.cate-second {
+    display: inline-block;
+    text-align: center;
+}
+.cate-second {
+    height: 4rem;
+    padding: 0 5%;
+    box-sizing: border-box;
+    position: relative;
+    width: 33%;
+}
+a, a:active, a:hover {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+a {
+    color: #666;
+}
+.cate-img {
+    width: 100%;
+}
+fieldset, img {
+    border: 0;
+}
+[data-dpr="2"] .cate-second .icon {
+    top: -16px;
+}
+[data-dpr="2"] .cate-second .icon {
+    font-size: 20px;
+}
+[data-dpr="2"] .cate-second .icon {
+    line-height: 60px;
+}
+[data-dpr="2"] .cate-second .icon {
+    height: 60px;
+}
+
+[data-dpr="2"] .cate-second .icon {
+    width: 60px;
+}
+.cate-second .icon-new {
+    background: #5698f3;
+}
+.cate-second .icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    top: -8px;
+    text-align: center;
+    border-radius: 50%;
+    right: 0;
+    color: #fff;
+}
+.cate-second .icon-hot {
+    background: #ff464e;
+}
